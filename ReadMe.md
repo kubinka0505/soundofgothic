@@ -54,7 +54,7 @@ Simple Python API wrapper for [SoundOfGothic](https://soundofgothic.pl).
 >>> URL = sog.Dialogs.Find.URL.by_content(Dialogs_List, "ulubieńców")
 >>>
 >>> # Download dialog file to given path
->>> sog.Dialogs.Download(URL, r"C:\Users\Saturas\Desktop")
+>>> sog.Dialogs.download(URL, r"C:\Users\Saturas\Desktop")
 ```
 
 **[In case of problems create issue](https://github.com/kubinka0505/soundofgothic/issues/new/choose)**.
